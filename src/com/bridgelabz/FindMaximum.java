@@ -1,13 +1,13 @@
 package com.bridgelabz;
 
 public class FindMaximum {
-    Integer maximum(Integer[] intArray){
-        Integer max =0;
-        for (int i=0;i<intArray.length-1;i++){
-            if (intArray[i].compareTo(intArray[i+1])==1){
-                max=intArray[i];
+    Float maximum(Float[] floatArray){
+        Float max =0.0F;
+        for (int i=0;i<floatArray.length-1;i++){
+            if (floatArray[i].compareTo(floatArray[i+1])==1){
+                max=floatArray[i];
             }else {
-                max=intArray[i+1];
+                max=floatArray[i+1];
             }
         }
         return max;
